@@ -1,4 +1,65 @@
-textarea {
+body {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	background-color: #4CC8B8;
+}
+
+#title {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+
+#outer-form {
+	background-color: white;
+	border-radius: 5px;
+	padding: 25px;
+	margin: 10px 75px 10px 75px;
+}
+
+.survey-questions-and-answers {
+	display: block;
+	margin: 15px;
+}
+
+.survey-questions {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.survey-answers {
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.input-fields {
+	width: 300px;
+	height: 20px;
+	border: 1px grey solid;
+	font-family: Open Sans;
+	padding-left: 5px;
+}
+
+#comments {
 	width: 300px;
 	height: 50px;
+}
+
+#submit {
+	background-color: #4C9AC8;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	display: block;
+	margin: auto;
+	height: 30px;
+	width: 70px;
+	font-family: Open Sans, sans-serif;
 }
